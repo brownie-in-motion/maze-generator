@@ -1,0 +1,36 @@
+html,
+body,
+canvas {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.canvas {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.sidebar {
+  padding: 2rem;
+}
